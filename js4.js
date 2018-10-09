@@ -5,7 +5,7 @@
 //здесь мы должны получить количество проектов от директора или отдела статистики,
 //
 class Department {
-    constructor (freedevs, newProjects) {
+    constructor(freedevs, newProjects) {
         this.freedevs = freedevs;
         this.newProjects = newProjects;
 
@@ -18,9 +18,6 @@ class Department {
 class mobileDepartment {
 
 }
-
-
-
 
 
 class Dev {
