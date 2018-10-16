@@ -11,6 +11,7 @@ class Theme extends Course{
         super(type);
         this.themeName = themeName;
         this.themes = ["oop", "js", "bootstrap"];
+        this.oopQuestions =  [];
 
     }
 
