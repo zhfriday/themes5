@@ -1,33 +1,28 @@
 "use strict";
 const Devs = [];
-const Develops = 1;
+const Developers = 1;
 let type = "mobile";
 
-class Director{
+class Director {
     constructor() {
         this.renderProject = Math.floor(Math.random() * 5);
-
-    }
-    method()
-    {
-       for (let i = Develops; i<this.renderProject; i++) {
-
-               Devs.push(new Developer(type));
-       }
     }
 
+    method() {
+        for (let i = Developers; i < this.renderProject; i++) {
+            Devs.push(new Developer(type));
+        }
+    }
 }
 
-class Developer  {
-    constructor (type) {
+class Developer {
+    constructor() {
         this.type = type;
     }
-
 }
 
-
-
-
-let managers = new Director ();
+let managers = new Director();
 managers.method();
+
+
 console.log(Devs);
